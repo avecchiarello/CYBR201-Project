@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Top Navigation Bar Color */
+nav {
+    background-color: #46116b;
+    color: #eeb211; 
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #a2aaad;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #46116b;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+/* Button for Explore Our Research */
+.hero-button {
+    background-color: #eeb211;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.hero-button:hover {
+    background-color: #d49a00;
+}
+
+/* Sections */
+section {
+    padding: 3rem 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #46116b;
+    text-align: center;
+    border-bottom: 4px solid #eeb211;
+    padding-bottom: 1rem;
+}
+
+/* Mission Section */
+.mission {
+    background-color: #ffffff;
+}
+/* Mission text box  */
+.mission-content {
+    background-color: white;
+    color: #46116b; /* maybe change */
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.mission-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Images */
+.lab-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+    outline: 2px solid #a2aaad; /* maybe change */
+
+}
+
+.lab-images img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Research Focus Areas */
+.research-focus {
+    background-color: white;
+}
+
+.focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+/* Focus Area Card Interior */
+.focus-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 5px solid #46116b;
+}
+
+.focus-card h3 {
+    color: #46116b;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+/* Foundational Research Area */
+.foundational {
+    background-color: white; /* maybe change to grey */
+}
+
+.foundational-list {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.foundational-list ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.foundational-list li {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.foundational-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #46116b; /* maybe change to green */
+    font-weight: bold;
+}
+
+/* Lab Members */
+.members {
+    background-color: white;
+}
+
+.member-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.member-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.member-card h3 {
+    color: #46116b;
+    text-decoration: underline;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.role {
+    color: #a2aaad;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Collaboration */
+.collaboration {
+    background-color: #ffffff;
+}
+
+.collab-section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 5px solid #eeb211;
+}
+
+.collab-section h3 {
+    color: #46116b;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.collab-section ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.collab-section li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.collab-section li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #eeb211;
+}
+
+/*  Get in Touch Section */
+.contact {
+    background-color: #46116b;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.contact-info p {
+    margin: 1rem 0;
+}
+
+.contact-info a {
+    color: #eeb211;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    .lab-images {
+        grid-template-columns: 1fr;
+    }
+}
