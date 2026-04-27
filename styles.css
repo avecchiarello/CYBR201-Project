@@ -43,7 +43,7 @@ nav ul {
 }
 
 nav a {
-    color: #ffffff;
+    color: #eeb211;
     text-decoration: none; /* removes underlines from navigation bar*/
     font-weight: 500;
 }
@@ -54,7 +54,10 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: #46116b;
+    background-image: url(images/ai-workspace.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: white;
     padding: 4rem 2rem; /* 4 padding top/bottom and 2 padding left/right */
     text-align: center;
@@ -101,7 +104,7 @@ section h2 {
 
 /* Mission Section */
 .mission {
-    background-color: #ffffff;
+    background-color: #a2aaad; /* maybe change to light grey */
 }
 /* Mission text box  */
 .mission-content {
@@ -123,7 +126,7 @@ section h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin: 3rem 0;
-    outline: 2px solid #a2aaad; /* maybe change */
+    outline: 2px solid black; /* maybe change */
 
 }
 
@@ -136,7 +139,7 @@ section h2 {
 
 /* Research Focus Areas */
 .research-focus {
-    background-color: white;
+    background-color: #a2aaad; /* maybe change to light grey */
 }
 
 .focus-grid {
@@ -223,7 +226,7 @@ section h2 {
 
 /* Collaboration */
 .collaboration {
-    background-color: #ffffff;
+    background-color: #a2aaad; /* maybe change to light grey */
 }
 
 .collab-section {
