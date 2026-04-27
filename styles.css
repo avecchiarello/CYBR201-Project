@@ -20,7 +20,7 @@ body {
 nav {
     background-color: #46116b;
     color: #eeb211; 
-    padding: 1rem 0;
+    padding: 1rem 0; /* padding applied top to bottom */
     position: sticky;
     top: 0;
 }
@@ -37,14 +37,14 @@ nav .logo {
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; /* removes the bullets */
     display: flex;
     gap: 2rem;
 }
 
 nav a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; /* removes underlines from navigation bar*/
     font-weight: 500;
 }
 
@@ -56,7 +56,7 @@ nav a:hover {
 .hero {
     background-color: #46116b;
     color: white;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem; /* 4 padding top/bottom and 2 padding left/right */
     text-align: center;
 }
 
