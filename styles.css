@@ -54,11 +54,12 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url(images/ai-workspace.jpg);
+    background-image: url(images/ualbany-image.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* adds a white shadow to make text more readable */
     padding: 4rem 2rem; /* 4 padding top/bottom and 2 padding left/right */
     text-align: center;
 }
