@@ -7,7 +7,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.5;
-    color: #000000;
+    color: black;
 }
 
 .container {
@@ -71,7 +71,7 @@ nav a:hover {
 
 .hero p {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* adds space at bottom of button */
     text-decoration: underline;
 }
 /* Button for Explore Our Research */
@@ -288,6 +288,10 @@ section h2 {
 
 .contact-info a:hover {
     text-decoration: underline;
+}
+ 
+a[href^="mailto:"]:hover {
+    color:blue;
 }
 
 /* Footer */
