@@ -59,7 +59,7 @@ nav a:hover {
     background-position: center;
     background-attachment: fixed;
     color: black;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* adds a white shadow to make text more readable */
+    text-shadow: 2px 2px 4px white; /* adds a white shadow to make text more readable */
     padding: 4rem 2rem; /* 4 padding top/bottom and 2 padding left/right */
     text-align: center;
 }
@@ -124,7 +124,7 @@ section h2 {
 /* Images */
 .lab-images {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     margin: 3rem 0;
     outline: 2px solid black; /* maybe change */
@@ -145,7 +145,7 @@ section h2 {
 
 .focus-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     margin: 2rem 0;
 }
@@ -176,7 +176,7 @@ section h2 {
 }
 
 .foundational-list ul {
-    list-style: none;
+    list-style: none; /* removes the bullets */
     margin-left: 0;
 }
 
@@ -201,7 +201,7 @@ section h2 {
 
 .member-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr; 
     gap: 2rem;
     margin: 2rem 0;
 }
