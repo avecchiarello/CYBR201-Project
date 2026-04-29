@@ -38,7 +38,7 @@ nav .logo {
 
 nav ul {
     list-style: none; /* removes the bullets */
-    display: flex;
+    display: flex; /* puts them in a row */
     gap: 2rem;
 }
 
