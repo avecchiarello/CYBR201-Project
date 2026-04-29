@@ -20,13 +20,13 @@ body {
 nav {
     background-color: #46116b;
     color: #eeb211; 
-    padding: 1rem 0; /* padding applied top to bottom */
+    padding: 1rem 0; /* padding applied top to bottom inside the box*/
     position: sticky;
     top: 0;
 }
 
 nav .container {
-    display: flex;
+    display: flex; /*lines it up horizontally */
     justify-content: space-between;
     align-items: center;
 }
@@ -71,7 +71,7 @@ nav a:hover {
 
 .hero p {
     font-size: 1.3rem;
-    margin-bottom: 2rem; /* adds space at bottom of button */
+    margin-bottom: 2rem; /* adds space outside of button on bottom*/
     text-decoration: underline;
 }
 /* Button for Explore Our Research */
